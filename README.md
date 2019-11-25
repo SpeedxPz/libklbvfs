@@ -13,6 +13,7 @@ After that you need to do some logic to transform the SQ value into 3 uint key
 # How to use
 Get your db from /sdcard/android/data/com.klab.lovelive.allstars/files/files/
 Use file name in this format {Key1}.{Key2}.{Key3}_{PathName}
+```c
     #include "../src/sqlite3.h"
 	#include "../src/klbvfs.h"
 	int main()
@@ -26,5 +27,6 @@ Use file name in this format {Key1}.{Key2}.{Key3}_{PathName}
 		
 	}
 
+```
 # Build
 Just run 'make' with gcc
